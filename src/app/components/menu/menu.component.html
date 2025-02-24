@@ -1,4 +1,16 @@
-<mat-toolbar>
-    <mat-icon class="on-surface-color">pest_control</mat-icon>
-    <span class="on-surface-color">BugForms</span>
+<mat-toolbar class="fixed top-0">
+  <div class="flex flex-row justify-between w-full items-center p-4">
+    <!-- Logo -->
+    <div class="flex flex-row items-center">
+      <mat-icon class="on-surface-color">pest_control</mat-icon>
+      <span class="on-surface-color">BugForms</span>
+    </div>
+
+    <!-- Menu -->
+    <div>
+      <button mat-button class="text-center" (click)="openLoginDialog()">
+        <mat-icon class="icon-large on-surface-color mr-0 ml-0">person</mat-icon>
+      </button>
+    </div>
+  </div>
 </mat-toolbar>

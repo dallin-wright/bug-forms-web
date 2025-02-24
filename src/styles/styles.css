@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import "./theme.css";
+@import "./material-overrides.css";
 
 html,
 body {
@@ -15,4 +17,16 @@ body {
 
 .on-surface-color {
     color: var(--mat-sys-on-surface);
+}
+
+.icon-small {
+  transform: scale(0.75);
+}
+
+.icon-medium {
+  transform: scale(1);
+}
+
+.icon-large {
+  transform: scale(1.25);
 }
